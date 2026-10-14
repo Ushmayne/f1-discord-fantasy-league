@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Secrets: never commit real tokens or connection strings
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Claude Code files: agents, settings, and generated design docs
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+docs/superpowers/
